@@ -1,0 +1,45 @@
+### fsharp ###
+lib/debug
+lib/release
+Debug
+*.suo
+*.user
+obj
+bin
+deploy
+public
+release.sh
+createdockerimage.sh
+
+# paket
+*.exe
+!.paket/paket.bootstrapper.exe
+.paket/load
+.paket/.store
+paket-files
+packages
+
+# vim swapfiles
+*.swp
+
+appsettings.development.json
+appsettings.production.json
+node_modules
+src/Beekeep.Client/public/
+
+# FAKE
+.fake
+
+# database
+app_data
+
+#vscode
+.vscode
+
+#build
+**/output
+
+tdd.fsx
+
+#deploy
+release.sh
